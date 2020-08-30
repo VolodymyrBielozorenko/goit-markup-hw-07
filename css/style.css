@@ -42,7 +42,7 @@ font-family: "Raleway", sans-serif; */
   /* outline: solid blue; */
 }
 
-.visualy-hidden {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -60,10 +60,6 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--main-text);
-}
-
-address {
-  font-style: normal;
 }
 
 .container {
@@ -138,8 +134,8 @@ address {
   margin-bottom: 50px;
 }
 
-.appeal,
-.services-box::after {
+.services-box::after,
+.appeal {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.142;
@@ -720,6 +716,10 @@ address {
 .logo-footer {
   color: var(--white);
   margin-right: 0;
+}
+
+.company-address {
+  font-style: normal;
 }
 
 .local-address {
